@@ -1,6 +1,6 @@
 # cloud_common_lib
 
-Repositório com funções úteis para manipulação de dados na IBM Cloud Object Store, tratamento de logs, e manipulação de dados em MongoDB, PostgreSQL e arquivos locais. Inclui operações de leitura, escrita, atualização e consulta para facilitar o gerenciamento de dados.
+Repositório com funções úteis para manipulação de dados na IBM Cloud Utilizando o COS (Cloud Object Store), tratamento de logs, e manipulação de dados em MongoDB, PostgreSQL e arquivos locais. Inclui operações de leitura, escrita, atualização e consulta para facilitar o gerenciamento de dados.
 
 ## Funcionalidades
 
@@ -16,33 +16,31 @@ Repositório com funções úteis para manipulação de dados na IBM Cloud Objec
 ## Estrutura do Repositório
 
 ```plaintext
-├── cloud_common_lib.log
-├── cloud_common_lib
-│   ├── COSManipulation.py
-│   ├── FileManipulation.py
-│   ├── Logging.py
-│   ├── MongoManipulation.py
-│   ├── PandasDFManipulation.py
-│   ├── PostgresManipulation.py
-│   ├── SanitizationMethods.py
-│   ├── Utils.py
-│   ├── __init__.py
-│   ├── db_mongo_pem.cert
-│   ├── lib_teste.py
-│   └── src.log
-└── files
-    ├── exploratory
-    │   └── dados.txt
-    ├── features
-    │   └── dados.txt
-    ├── raw
-    │   └── dados.txt
-    ├── refined
-    │   └── dados.txt
-    ├── sandbox
-    │   └── dados.txt
-    └── trusted
-        └── dados.txt
+cloud_common_lib/
+├── files
+│   ├── exploratory
+│   │   └── dados.txt
+│   ├── features
+│   │   └── dados.txt
+│   ├── raw
+│   │   └── dados.txt
+│   ├── refined
+│   │   └── dados.txt
+│   ├── sandbox
+│   │   └── dados.txt
+│   └── trusted
+│       └── dados.txt
+├── requirements.txt
+├── setup.py
+└── src
+    ├── COSManipulation.py
+    ├── FileManipulation.py
+    ├── Logging.py
+    ├── lib_teste.py
+    ├── MongoManipulation.py
+    ├── PandasDFManipulation.py
+    ├── PostgresManipulation.py
+    └── Utils.py
 ```
 
 ### Camadas de Dados

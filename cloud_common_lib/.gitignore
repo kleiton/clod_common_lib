@@ -1,0 +1,6 @@
+/.idea/
+/temp_data/file_test.txt
+/cloud_common_lib/files/**/*
+.vscode/
+/__pycache__/
+/*.log
