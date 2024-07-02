@@ -20,12 +20,12 @@ setuptools.setup(
         "ibm-cos-sdk-s3transfer==2.12.0",
         "sqlalchemy==1.4.40",
         "psycopg2==2.9.5",
-        "pymongo==4.6.3",
+        "pymongo==4.8.0",
         "pandas>=1.5.0",
         "alchemy-mock==0.4.3",
         "psycopg2-binary==2.9.5",
         "glob2>=0.7",
-        "cryptography==42.0.4",
+        "cryptography==42.0.8",
         "numpy==1.23.4"
     ],
     classifiers=[
