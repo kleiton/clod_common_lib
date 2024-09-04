@@ -25,7 +25,7 @@ setuptools.setup(
         "alchemy-mock==0.4.3",
         "psycopg2-binary==2.9.5",
         "glob2>=0.7",
-        "cryptography==42.0.8",
+        "cryptography==43.0.1",
         "numpy==1.23.4"
     ],
     classifiers=[
